@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div.sidebar > ul {
+  list-style-type: none;
+  padding: 10%;
+}
+div.sidebar > ul > li {
+  padding: 15%;
+}
+div.footer > div > ul {
+  list-style-type: none;
+  font-size: small;
+  padding: 10%;
+  margin: 0;
+  text-align: center;
+}
+div.sidebar > ul > li > a:link {
+  font-size: small;
+  text-decoration: none;
+}
+.brand-footer-text{
+  text-align: center;
+  font-size: small;
+}
+.product-card{
+  text-align: center;
+  padding: 1%;
+}
